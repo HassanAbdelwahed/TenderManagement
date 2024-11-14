@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Use Routes instead of Switch
-import TenderForm from "./components/TenderForm";
-import TenderDetails from "./components/TenderDetails ";
+import TenderForm from "./components/tenderFormComponent/TenderForm";
+import TenderDetails from "./components/tenderDetailsComponent/TenderDetails ";
 import Tender from "./pages/Tender";
 
 const App = () => {

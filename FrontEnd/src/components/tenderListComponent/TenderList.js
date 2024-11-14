@@ -2,7 +2,7 @@ import "./TenderList.css";
 import React, { useState, useEffect } from "react";
 import { Table, Button, Alert, Spinner } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { fetchTenders } from "../services/api";
+import { fetchTenders } from "../../services/api";
 
 const TenderList = () => {
   const [tenders, setTenders] = useState([]);

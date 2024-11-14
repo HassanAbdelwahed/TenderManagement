@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { fetchTenderById } from "../services/api";
+import { fetchTenderById } from "../../services/api";
 import { Card, Button, Spinner, Alert } from "react-bootstrap";
 
 const TenderDetails = () => {

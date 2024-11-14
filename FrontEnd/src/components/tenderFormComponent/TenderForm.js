@@ -1,7 +1,7 @@
 import "./TenderForm.css";
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import { createTender } from "../services/api";
+import { createTender } from "../../services/api";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

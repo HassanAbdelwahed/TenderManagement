@@ -1,6 +1,6 @@
 import "./Tender.css";
 import { Button, Container } from "react-bootstrap";
-import TenderList from "../components/TenderList";
+import TenderList from "../components/tenderListComponent/TenderList";
 import { Link } from "react-router-dom";
 
 const Tender = () => {
